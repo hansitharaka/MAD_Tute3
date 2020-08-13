@@ -2,7 +2,10 @@ package com.example.intentsproj;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+
 
 public class FirstActivity extends AppCompatActivity {
 
@@ -11,4 +14,10 @@ public class FirstActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_first);
     }
+
+    public void sendOkMessage(View view) {
+        Intent myIntent = new Intent(this, SecondActivity.class);
+        startActivity(myIntent);
+    }
+
 }
