@@ -2,8 +2,8 @@
     <string name="app_name">IntentsProj</string>
     <string name="num1">Number 1</string>
     <string name="num2">Number 2</string>
-    <string name="input1">Input 1</string>
-    <string name="input2">Input 2</string>
+    <string name="input1"></string>
+    <string name="input2"></string>
     <string name="btnOk">OK</string>
     <string name="btnAdd">+</string>
     <string name="btnSub">-</string>

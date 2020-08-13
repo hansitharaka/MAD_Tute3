@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.Gravity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -50,6 +51,7 @@ public class FirstActivity extends AppCompatActivity {
                 int duration = Toast.LENGTH_SHORT;
 
                 Toast toast = Toast.makeText(context, message, duration);
+                //toast.setGravity(Gravity.TOP | Gravity.LEFT, 0, 0);
                 toast.show();
 
             }
