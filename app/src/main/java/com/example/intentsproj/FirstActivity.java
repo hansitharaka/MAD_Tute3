@@ -59,8 +59,4 @@ public class FirstActivity extends AppCompatActivity {
 
     }
 
-   /* public void sendOkMessage(View view) {
-
-    }*/
-
 }
